@@ -1,19 +1,25 @@
 #include <iostream>
 #include <vector>
-using namespace std;
 
-// Function to calculate the sum of both diagonals in the matrix
-int diagonalSum(vector<vector<int>> &matrix) {
-  // TODO: Add the sum of the primary and secondary diagonal,
-  // then return the sum.
+bool checkWinner(std::vector<std::vector<char>> &board) {
+  // TODO: Implement the function checkWinner to check for if someone
+  // has won the game. If someone has won, return `true`,
+  // otherwise return false;
+
+  return true;
 }
 
 int main() {
-  // Example matrix (you can modify this for testing)
-  vector<vector<int>> matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+  // Test cases
+  std::vector<std::vector<char>> board1 = {
+      {'X', 'O', ' '}, {'X', 'O', ' '}, {'X', ' ', 'O'}};
+  std::cout << "Test Case 1: " << (checkWinner(board1) ? "true" : "false")
+            << std::endl;
 
-  int result = diagonalSum(matrix);
-  cout << "Sum of diagonals = " << result << endl;
+  std::vector<std::vector<char>> board2 = {
+      {'X', 'O', 'X'}, {'X', 'X', 'O'}, {'O', 'X', 'O'}};
+  std::cout << "Test Case 2: " << (checkWinner(board2) ? "true" : "false")
+            << std::endl;
 
   return 0;
 }
