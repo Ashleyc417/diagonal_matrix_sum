@@ -12,12 +12,18 @@ bool checkWinner(std::vector<std::vector<char>> &board) {
 int main() {
   // Test cases
   std::vector<std::vector<char>> board1 = {
-      {'X', 'O', ' '}, {'X', 'O', ' '}, {'X', ' ', 'O'}};
+    {'X', 'O', ' '}, 
+    {'X', 'O', ' '}, 
+    {'X', ' ', 'O'}};
+  
   std::cout << "Test Case 1: " << (checkWinner(board1) ? "true" : "false")
             << std::endl;
 
   std::vector<std::vector<char>> board2 = {
-      {'X', 'O', 'X'}, {'X', 'X', 'O'}, {'O', 'X', 'O'}};
+    {'X', 'O', 'X'}, 
+    {'X', 'X', 'O'}, 
+    {'O', 'X', 'O'}};
+  
   std::cout << "Test Case 2: " << (checkWinner(board2) ? "true" : "false")
             << std::endl;
 
