@@ -6,8 +6,8 @@ returns `true` if there is a winner and `false` otherwise.
 
 
 ### Input:
-    board: A 3x3 vector of characters representing the Tic Tac Toe board. Each cell contains 
-    either 'X', 'O', or ' ' (empty).
+    board: A 3x3 vector of characters representing the Tic Tac Toe board. 
+    Each cell contains either 'X', 'O', or ' ' (empty).
 
 ### Output:
     Returns `true` if there is a winner, `false` otherwise.
