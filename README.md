@@ -5,18 +5,18 @@ The game is won if a player has filled either a row, column, or diagonal with th
 returns `true` if there is a winner and `false` otherwise.
 
 
-**Input:**
+### Input:
     board: A 3x3 vector of characters representing the Tic Tac Toe board. Each cell contains 
     either 'X', 'O', or ' ' (empty).
 
-**Output:**
+### Output:
     Returns `true` if there is a winner, `false` otherwise.
 
-**Constraints:**
+### Constraints:
     The Tic Tac Toe board will always be a 3x3 grid.
     The characters in the board will be either 'X', 'O', or ' ' (empty).
 
-**Example:**
+### Example:
 ```cpp
 vector<vector<char>> board = {
     {'X', 'O', ' '},
