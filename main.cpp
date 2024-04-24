@@ -10,7 +10,7 @@ bool checkWinner(std::vector<std::vector<char>> &board) {
 }
 
 int main() {
-  // Test cases
+  // Test Cases
   std::vector<std::vector<char>> board1 = {
     {'X', 'O', ' '}, 
     {'X', 'O', ' '}, 
