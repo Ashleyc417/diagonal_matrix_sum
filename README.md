@@ -2,7 +2,9 @@
 
 Design a function to determine if there is a winner in a Tic Tac Toe game played on a 3x3 board. 
 The game is won if a player has filled either a row, column, or diagonal with their marker (either 'X' or 'O').
+
 <br />
+
 **Your job is to implement 2 functions:**
 
 1. A function `checkWinner` that
@@ -10,6 +12,7 @@ The game is won if a player has filled either a row, column, or diagonal with th
 
 2. A function `printBoard` that
    prints the game board passed into the function.
+
 <br />
 
 ## Input:
@@ -25,7 +28,6 @@ Compile using `clang++ main.cpp` or `g++ main.cpp`
 Execute/Run your code using `./a.out`
 
 <br />
-
 
 ## Expected Output:
 
