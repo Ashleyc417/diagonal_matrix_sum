@@ -10,7 +10,7 @@ Your job is to implement 2 functions:
    returns `true` if there is a winner and `false` otherwise.
 
 2. A function `printBoard` that
-   prints the game board that is passed into the function.
+   prints the game board passed into the function.
 
 ### Input:
 - board: A 3x3 vector of characters representing the Tic Tac Toe board.
