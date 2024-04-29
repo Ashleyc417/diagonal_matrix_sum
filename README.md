@@ -6,21 +6,15 @@ The game is won if a player has filled either a row, column, or diagonal with th
 
 Your job is to implement 2 functions:
 
-1. A function `bool checkWinner(vector<vector<char>>& board)` that
+1. A function `checkWinner` that
    returns `true` if there is a winner and `false` otherwise.
 
-2. A function `void printBoard(vector<vector<char>>& board)` that
+2. A function `printBoard` that
    prints the game board that is passed into the function.
 
 ### Input:
-
-    board: A 3x3 vector of characters representing the Tic Tac Toe board.
-    Each cell contains either 'X', 'O', or ' ' (empty).
-
-### Constraints:
-
-    The Tic Tac Toe board will always be a 3x3 grid.
-    The characters in the board will be either 'X', 'O', or ' ' (empty).
+- board: A 3x3 vector of characters representing the Tic Tac Toe board.
+- Each cell contains either 'X', 'O', or ' ' (empty).
 
 ### Run Your Code
 
