@@ -12,9 +12,12 @@ Your job is to implement 2 functions:
 2. A function `printBoard` that
    prints the game board passed into the function.
 
+
+
 ### Input:
 - board: A 3x3 vector of characters representing the Tic Tac Toe board.
 - Each cell contains either 'X', 'O', or ' ' (empty).
+
 
 
 
@@ -26,7 +29,8 @@ Execute/Run your code using `./a.out`
 
 
 
-### Expected Output:
+
+## Expected Output:
 
 ```
 Is there a winnner on the board?
