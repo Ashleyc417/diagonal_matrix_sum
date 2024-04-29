@@ -11,23 +11,19 @@ Your job is to implement 2 functions:
 
 2. A function `printBoard` that
    prints the game board passed into the function.
-
-
+<br />
 
 ### Input:
 - board: A 3x3 vector of characters representing the Tic Tac Toe board.
 - Each cell contains either 'X', 'O', or ' ' (empty).
-
-
-
+<br />
 
 ### Run Your Code
 
 Compile using `clang++ main.cpp` or `g++ main.cpp`
 
 Execute/Run your code using `./a.out`
-
-
+<br />
 
 
 ## Expected Output:
