@@ -13,13 +13,13 @@ The game is won if a player has filled either a row, column, or diagonal with th
    prints the game board passed into the function.
 <br />
 
-### Input:
+## Input:
 - board: A 3x3 vector of characters representing the Tic Tac Toe board.
 - Each cell contains either 'X', 'O', or ' ' (empty).
 
 <br />
 
-### Run Your Code
+## Run Your Code
 
 Compile using `clang++ main.cpp` or `g++ main.cpp`
 
