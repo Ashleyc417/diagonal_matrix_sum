@@ -16,6 +16,7 @@ Your job is to implement 2 functions:
 ### Input:
 - board: A 3x3 vector of characters representing the Tic Tac Toe board.
 - Each cell contains either 'X', 'O', or ' ' (empty).
+
 <br />
 
 ### Run Your Code
@@ -23,6 +24,7 @@ Your job is to implement 2 functions:
 Compile using `clang++ main.cpp` or `g++ main.cpp`
 
 Execute/Run your code using `./a.out`
+
 <br />
 
 
