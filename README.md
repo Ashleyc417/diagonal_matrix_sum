@@ -6,10 +6,10 @@ The game is won if a player has filled either a row, column, or diagonal with th
 
 Your job is to implement 2 functions:
 
-1. A function `bool checkWinner(std::vector<std::vector<char>>& board)` that
+1. A function `bool checkWinner(vector<vector<char>>& board)` that
    returns `true` if there is a winner and `false` otherwise.
 
-2. A function `void printBoard(std::vector<std::vector<char>>& board)` that
+2. A function `void printBoard(vector<vector<char>>& board)` that
    prints the game board that is passed into the function.
 
 ### Input:
