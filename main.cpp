@@ -3,7 +3,11 @@
 
 bool checkWinner(std::vector<std::vector<char>> &board) {
   // TODO: Implement the function checkWinner to check for if someone
+<<<<<<< HEAD
   // has won the game vertically or horizontally.
+=======
+  // has won the game vertically, horizontally, or diagonally. 
+>>>>>>> 85bbfb45786d9bf97e40b62eabd993b900d3ccfa
   // If someone has won, return `true`, otherwise return false;
 
   return true;
